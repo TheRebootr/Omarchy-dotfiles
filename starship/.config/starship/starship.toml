@@ -56,7 +56,7 @@ red = "#eb6f92"
 maroon = "#eb6f92"
 peach = "#ebbcba"
 yellow = "#f6c177"
-green = "#9ccfd8"
+green = "#a3be8c"
 teal = "#9ccfd8"
 sky = "#9ccfd8"
 sapphire = "#9ccfd8"
@@ -179,11 +179,11 @@ symbol = " "
 symbol = "  "
 
 [git_branch]
-symbol = "[](black) "
+symbol = "[](surface0) "
 # symbol = " "
 # style = "bold mauve"
-style = "fg:lavender bg:black"
-format = 'on [$symbol$branch]($style)[](black)'
+style = "fg:lavender bg:surface0"
+format = 'on [$symbol$branch]($style)[](surface0)'
 
 [git_status]
 format = ' [($all_status$ahead_behind )]($style)'
