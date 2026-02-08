@@ -74,7 +74,7 @@ export FZF_TMUX_OPTS=" -p90%,70% "
 # Source files
 source $HOME/.config/zsh/.zsh_aliases
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $HOME/.config/zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
+source $HOME/.config/zsh/rose_pine_dark-zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 
