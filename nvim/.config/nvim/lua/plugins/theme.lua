@@ -1,0 +1,1 @@
+/home/therebootr/.config/omarchy/current/theme/neovim.lua
