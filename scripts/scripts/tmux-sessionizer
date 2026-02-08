@@ -52,7 +52,7 @@ hydrate() {
 if [[ $# -eq 1 ]]; then
     selected=$1
 else
-    selected=$(fd -H . ~/.dotfiles/ ~/repos/ -t d -d 1 | fzf)
+    selected=$(fd -H . ~/ ~/repos/ -t d -d 1 | fzf)
 fi
 
 # Abort if nothing selected
