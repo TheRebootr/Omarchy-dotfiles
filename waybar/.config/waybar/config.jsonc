@@ -9,11 +9,11 @@
   ],
   "modules-center": [
     "hyprland/window",
-    "custom/update",
     "custom/screenrecording-indicator"
   ],
   "modules-right": [
     // "group/tray-expander",
+    "custom/update",
     "bluetooth",
     "cpu",
     "pulseaudio",
@@ -64,7 +64,7 @@
   "cpu": {
     "interval": 5,
     "format": "󰍛 {usage}%",
-    "on-click": "xdg-terminal-exec btop"
+    "on-click": "omarchy-launch-or-focus-tui btop"
   },
 
   "custom/omarchy": {
@@ -75,7 +75,7 @@
   },
   "custom/update": {
     "format": "",
-    "exec": "omarchy-update-available",
+    "exec": "echo 'Update available'",
     "on-click": "omarchy-launch-floating-terminal-with-presentation omarchy-update",
     "tooltip-format": "Omarchy update available",
     "signal": 7,
@@ -87,7 +87,7 @@
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
-    "on-click": "omarchy-launch-or-focus-tui wiremix",
+    "on-click": "omarchy-launch-audio",
     "on-click-right": "pamixer -t",
     "tooltip-format": "Playing at {volume}%",
     "scroll-step": 5,

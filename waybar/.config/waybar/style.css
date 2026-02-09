@@ -63,6 +63,7 @@ tooltip label {
 #bluetooth,
 #battery,
 #cpu,
+#custom-update,
 #custom-weather,
 #pulseaudio,
 #network,
@@ -97,6 +98,10 @@ tooltip label {
 }
 
 #custom-omarchy {
+  color: @foreground;
+}
+
+#custom-update {
   color: @foreground;
 }
 
