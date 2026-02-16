@@ -1,9 +1,10 @@
 # Dynamic theme colors
-config-file = ?"~/.config/omarchy/current/theme/ghostty.conf"
+# config-file = ?"~/.config/omarchy/current/theme/ghostty.conf"
+theme = dark:Rose Pine,light:Rose Pine Dawn
 
 # Font
 font-family = "PragmataPro Liga"
-font-feature = "ss20", "ss15", "ss18", "ss13"
+font-feature = "ss20", "ss15", "ss18", "ss13", "calt"
 font-style = Regular
 font-size = 12
 
