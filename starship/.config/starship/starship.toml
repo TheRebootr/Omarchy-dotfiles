@@ -82,7 +82,7 @@ disabled = true
 [character]
 # Note the use of Catppuccin color 'peach'
 # success_symbol = "[[λ](green) ❯](peach)"
-success_symbol = '[λ](bold fg:green)'
+success_symbol = '[λ](bold fg:#37f499)'
 # error_symbol = "[[λ](red) ❯](peach)"
 error_symbol = "[λ](red)"
 # vimcmd_symbol = "[λ ❮](subtext1)" # For use with zsh-vi-mode

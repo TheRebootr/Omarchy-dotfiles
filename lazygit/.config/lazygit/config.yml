@@ -1,28 +1,47 @@
 os:
-  editPreset: 'nvim'
+  editPreset: "nvim"
 git:
-  branchPrefix: 'feature/'
+  branchPrefix: "feature/"
   pagers:
     - colorArg: always
       pager: diff-so-fancy
 gui:
   theme:
     activeBorderColor:
-      - '#c4a7e7'
+      - "#3e8fb0"
       - bold
+
     inactiveBorderColor:
-      - '#908caa'
-    optionsTextColor:
-      - '#31748f'
-    selectedLineBgColor:
-      - '#26233a'
-    cherryPickedCommitBgColor:
-      - '#403d52'
-    cherryPickedCommitFgColor:
-      - '#c4a7e7'
-    unstagedChangesColor:
-      - '#eb6f92'
-    defaultFgColor:
-      - '#e0def4'
+      - "#6e6a86"
+
     searchingActiveBorderColor:
-      - '#f6c177'
+      - "#ea9a97"
+      - bold
+
+    optionsTextColor:
+      - "#9ccfd8"
+
+    selectedLineBgColor:
+      - "#3e8fb0"
+
+    inactiveViewSelectedLineBgColor:
+      - "#393552"
+      - bold
+
+    cherryPickedCommitFgColor:
+      - "#2a273f"
+
+    cherryPickedCommitBgColor:
+      - "#ea9a97"
+
+    markedBaseCommitFgColor:
+      - "#9ccfd8"
+
+    markedBaseCommitBgColor:
+      - "#f6c177"
+
+    unstagedChangesColor:
+      - "#eb6f92"
+
+    defaultFgColor:
+      - "#e0def4"
